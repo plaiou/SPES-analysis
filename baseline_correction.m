@@ -18,7 +18,7 @@ function [cor_basel_bef, cor_basel_far] = baseline_correction(rec_signal, baseli
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-baseline_bef = rec_signal(1:128); % 128 points correspond to 200ms (keller eta l) 
+baseline_bef = rec_signal(1:128); % 128 points correspond to 250ms
 
 
 cor_basel_bef = (rec_signal - mean(baseline_bef))/std(baseline_bef);
