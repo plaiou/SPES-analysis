@@ -1,5 +1,6 @@
 function [filtered_EEG] = butter_filter(EEG, sampling_freq, lower_limit,upper_limit)
 
+
 %INPUT
 % EEG: iEEG data (ch x time)
 % sampling_freq: sampling frequency
