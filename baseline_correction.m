@@ -16,7 +16,7 @@ function [cor_basel_bef, cor_basel_far] = baseline_correction(rec_signal, baseli
 %                normalising with the baseline basel_far (i.e. far from
 %                seizure)
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 baseline_bef = rec_signal(1:128); % 128 points correspond to 250ms
 
