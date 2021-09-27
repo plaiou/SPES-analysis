@@ -25,6 +25,6 @@ for count = 1:num_anal_ch
         y_remove = y_inter;
         y_remove(x_remove_idx) = [];
 
-        interp_data = interp1(x_remove, y_remove, x_inter, 'spline');
+        interp_data = interp1(x_remove, y_remove, x_inter, 'spline')
 end
 
