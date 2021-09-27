@@ -11,7 +11,7 @@ rms = sqrt(mean(segment.^2));
 
 max_abs_amplitude = max(abs(segment));
 
-var_segment = var(segment);
+var_segment = var(segment)
 
 
 end
